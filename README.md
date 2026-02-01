@@ -1,16 +1,28 @@
-# Scale institutional knowledge using Copilot Spaces
+# OctoAcme Project Management Docs – README
 
-<img src="https://octodex.github.com/images/Professortocat_v2.png" align="right" height="200px" />
+This README is the entry point for OctoAcme's project management playbook. It summarizes our lightweight, evidence-driven lifecycle and links to the detailed process documents stored in this folder. Use this as the starting point for onboarding, reference, and process updates.
 
-Hey Tomjesch!
+## Brief overview of OctoAcme project management processes
 
-Mona here. I'm done preparing your exercise. Hope you enjoy! 💚
+OctoAcme runs projects using a customer-first, iterative lifecycle: Initiation → Planning → Execution → Release → Retrospective. Initiation captures the problem, stakeholders, goals and success metrics in a Project One-pager. Planning turns approved initiatives into a prioritized, estimated backlog, with a Definition of Done, release milestones, and a shared risk register.
 
-Remember, it's self-paced so feel free to take a break! ☕️
+Day-to-day execution follows a simple board workflow (Backlog → Ready → In Progress → In Review → QA → Done) and a disciplined PR process (small PRs, acceptance criteria in PRs, CI gates, security scans, and at least one approval before merging). Releases use standardized checklists, staging smoke tests, rollback plans, and post-deploy verifications. Quality assurance combines automated unit/integration tests, end-to-end smoke tests for critical flows, security scanning in CI, and manual QA when needed.
 
-[![](https://img.shields.io/badge/Go%20to%20Exercise-%E2%86%92-1f883d?style=for-the-badge&logo=github&labelColor=197935)](https://github.com/Tomjesch/skills-scale-institutional-knowledge-using-copilot-spaces/issues/1)
+Roles are explicit: Product Managers (define outcomes and success metrics), Project Managers (coordinate delivery, schedule and risks), Developers (implement and test), QA (validate acceptance), and Stakeholders (approve and provide input). Communication cadence includes daily standups, weekly delivery/PM syncs, monthly stakeholder updates, and clear escalation paths. Retrospectives capture learnings and convert them into tracked action items for continuous improvement.
+
+## Documentation index
+
+- [Project Management Overview](docs/octoacme-project-management-overview.md)
+- [Project Initiation Guide](docs/octoacme-project-initiation.md)
+- [Project Planning](docs/octoacme-project-planning.md)
+- [Execution & Tracking](docs/octoacme-execution-and-tracking.md)
+- [Risk Management & Communication](docs/octoacme-risks-and-communication.md)
+- [Release & Deployment Guide](docs/octoacme-release-and-deployment.md)
+- [Retrospective & Continuous Improvement](docs/octoacme-retrospective-and-continuous-improvement.md)
+- [Roles and Personas](docs/octoacme-roles-and-personas.md)
 
 ---
 
-&copy; 2025 GitHub &bull; [Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [MIT License](https://gh.io/mit)
-
+How to propose changes
+- Use the `.github/ISSUE_TEMPLATE/Add content to project management process docs` issue template to request additions or edits.
+- Keep docs small and focused; add example artifacts (one-pager, risk register) to the project repo.
